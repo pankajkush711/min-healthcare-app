@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #f4f8fb;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #ffffff;
+  padding: 25px;
+  width: 420px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+textarea {
+  resize: none;
+  height: 90px;
+}
+
+button {
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2e8b57;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #246b45;
+}
+
+/* Chatbot Section */
+.chatbot {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chatbot-input {
+  display: flex;
+  gap: 8px;
+}
+
+.chatbot-input input {
+  flex: 1;
+}
+
+.chatbot-input button {
+  width: 80px;
+}
+
+#botReply {
+  background: #e9f6ef;
+  padding: 10px;
+  border-left: 4px solid #2e8b57;
+  border-radius: 5px;
+  font-size: 14px;
+}

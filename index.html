@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mini Healthcare Support</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h2>Healthcare Support Form</h2>
+
+  <form id="supportForm">
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Email" required />
+    <textarea placeholder="Describe your issue"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+
+  <h3>FAQ Chatbot</h3>
+
+  <div class="chatbot">
+    <div class="chatbot-input">
+      <input type="text" id="question" placeholder="Ask a question..." />
+      <button onclick="chatbot()">Ask</button>
+    </div>
+    <p id="botReply"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
